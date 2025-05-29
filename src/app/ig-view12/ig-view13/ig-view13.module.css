@@ -1,0 +1,143 @@
+.row-layout {
+  display: flex;
+}
+.container {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 10px;
+  position: relative;
+}
+.group_2 {
+  background-color: var(--ig-primary-100);
+  border-radius: 1px;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 10px 20px;
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  align-self: center;
+  flex-shrink: 0;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+}
+.group_4 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 20px;
+  position: relative;
+}
+.group_5 {
+  background-color: var(--ig-primary-100);
+  border-radius: 1px;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 10px 20px;
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  flex-shrink: 0;
+}
+.group_6 {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  margin: 10px 0 0;
+}
+.form {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 10px;
+  position: absolute;
+  padding: 20px;
+  min-width: 50px;
+  min-height: 50px;
+  align-self: start;
+}
+.input {
+  width: 80px;
+  height: max-content;
+  min-width: min-content;
+  max-width: 80px;
+  flex-shrink: 0;
+}
+.select {
+  height: max-content;
+  min-width: min-content;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+  flex-shrink: 0;
+}
+.button_1::part(base) {
+  background-color: transparent;
+}
+.button_2::part(base) {
+  background-color: transparent;
+}
+.button_3::part(base) {
+  background-color: transparent;
+}
+.button_4::part(base) {
+  color: var(--ig-surface-500);
+}
+.h5 {
+  height: max-content;
+  min-width: min-content;
+}
+.text {
+  text-align: center;
+  color: var(--ig-surface-500);
+  height: max-content;
+  min-width: min-content;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.text_1 {
+  margin: 0 -10px;
+  height: max-content;
+  min-width: min-content;
+}
+.date-time-input {
+  margin: 0 0 0 -20px;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.date-time-input_1 {
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}

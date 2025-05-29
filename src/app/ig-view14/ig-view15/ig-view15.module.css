@@ -1,0 +1,300 @@
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+  position: relative;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+  position: relative;
+  padding: 5px;
+  height: 100%;
+  min-width: 50px;
+  min-height: 100%;
+  max-height: 0;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 5px;
+  position: relative;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+}
+.group_4 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 50%;
+  min-width: 50%;
+  max-width: 50%;
+}
+.group_5 {
+  background-color: var(--ig-primary-200);
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 70px;
+  min-width: 70px;
+  max-width: 70px;
+}
+.group_6 {
+  background-color: var(--ig-primary-200);
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: sticky;
+  width: 70px;
+  min-width: 70px;
+  max-width: 70px;
+}
+.group_7 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  flex-grow: 1;
+}
+.group_8 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+.group_9 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 70%;
+  min-width: 70%;
+  max-width: 70%;
+}
+.group_10 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+}
+.group_11 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 10px 20px;
+}
+.group_12 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 10px;
+  position: relative;
+  padding: 10px 20px;
+}
+.group_13 {
+  background-color: var(--ig-primary-200);
+  border-radius: 3px;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 20px;
+}
+.group_14 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+  position: relative;
+  max-height: 350px;
+}
+.group_15 {
+  background-color: var(--ig-primary-200);
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+}
+.group_16 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 70%;
+  height: 100%;
+  min-width: 70%;
+  min-height: 100%;
+  max-width: 70%;
+  max-height: 100%;
+}
+.footer_button {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: min-content;
+  min-width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.text_1 {
+  color: var(--ig-surface-500);
+  width: 17px;
+  height: max-content;
+  min-width: min-content;
+  max-width: 17px;
+}
+.text_2 {
+  color: var(--ig-surface-500);
+  width: 30px;
+  height: max-content;
+  min-width: min-content;
+  max-width: 30px;
+}
+.text_3 {
+  color: var(--ig-surface-500);
+  width: 58px;
+  height: max-content;
+  min-width: min-content;
+  max-width: 58px;
+}
+.text_4 {
+  color: var(--ig-surface-500);
+  height: max-content;
+  min-width: min-content;
+}
+.input {
+  height: max-content;
+  min-width: min-content;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.user-input {
+  height: max-content;
+  min-width: min-content;
+}
+.input_1 {
+  position: relative;
+  width: 100%;
+  height: max-content;
+  min-width: min-content;
+  max-width: 100%;
+}
+.input_2 {
+  position: relative;
+  height: max-content;
+  min-width: min-content;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.input_3 {
+  position: relative;
+  width: 50%;
+  height: max-content;
+  min-width: min-content;
+  max-width: 50%;
+}
+.input_4 {
+  width: 50%;
+  height: max-content;
+  min-width: min-content;
+  max-width: 50%;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.button_1 {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.button_2 {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
+.button_3::part(base) {
+  background-color: var(--ig-surface-500);
+}
+.button_4::part(base) {
+  background-color: var(--ig-surface-500);
+}
+.button_5::part(base) {
+  background-color: var(--ig-surface-500);
+}
+.button_6::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_7::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_8::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_9::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_10::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_11::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_12::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_13::part(base) {
+  color: var(--ig-surface-500);
+  background-color: var(--ig-info-500);
+}
+.button_1_1::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.grid {
+  --ig-size: var(--ig-size-medium);
+  min-width: 600px;
+}
+.grid_1 {
+  --ig-size: var(--ig-size-medium);
+  flex-grow: 1;
+  flex-shrink: 0;
+}

@@ -1,0 +1,133 @@
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 10px;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 10px 20px;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 10px;
+  position: relative;
+  padding: 10px 20px;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 5px;
+  position: relative;
+}
+.group_4 {
+  background-color: var(--ig-primary-200);
+  border-radius: 3px;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 20px;
+}
+.footer_button {
+  z-index: 1;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: min-content;
+  min-width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.text_1 {
+  color: var(--ig-surface-500);
+  height: max-content;
+  min-width: min-content;
+}
+.grid {
+  --ig-size: var(--ig-size-medium);
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.button_1 {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.checkbox {
+  width: max-content;
+  height: max-content;
+}
+.button_2::part(base) {
+  background-color: var(--ig-surface-500);
+}
+.button_3::part(base) {
+  background-color: var(--ig-surface-500);
+}
+.button_4::part(base) {
+  background-color: var(--ig-surface-500);
+}
+.button_5::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_6::part(base) {
+  color: var(--ig-gray-900);
+  background-color: var(--ig-surface-500);
+}
+.button_7::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_8::part(base) {
+  background-color: var(--ig-surface-500);
+}
+.button_9::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_10::part(base) {
+  background-color: var(--ig-surface-500);
+}
+.button_11::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_12::part(base) {
+  color: var(--ig-surface-500);
+  background-color: var(--ig-info-500);
+}
+.button_1_1::part(base) {
+  background-color: var(--ig-surface-500);
+}

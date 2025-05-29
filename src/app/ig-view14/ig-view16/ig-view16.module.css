@@ -1,0 +1,477 @@
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  padding: 10px 10px 40px;
+  height: 100%;
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 3px;
+  overflow: auto;
+  position: relative;
+  width: 30%;
+  min-width: 30%;
+  max-width: 30%;
+  flex-shrink: 0;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 3px;
+  position: relative;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 50%;
+  min-width: 50%;
+  max-width: 50%;
+}
+.group_4 {
+  background-color: var(--ig-primary-300);
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  position: relative;
+  width: 60px;
+  height: 20px;
+  min-width: 60px;
+  min-height: 20px;
+  max-width: 60px;
+  max-height: 20px;
+  flex-shrink: 0;
+}
+.group_5 {
+  background-color: var(--ig-gray-300);
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_6 {
+  background-color: var(--ig-gray-300);
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  min-width: 100%;
+  min-height: 80px;
+  max-width: 100%;
+  max-height: 80px;
+  flex-shrink: 0;
+}
+.group_7 {
+  background-color: var(--ig-gray-300);
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_8 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+.group_9 {
+  background-color: var(--ig-gray-300);
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  min-width: 100%;
+  min-height: 40px;
+  max-width: 100%;
+  max-height: 40px;
+  flex-shrink: 0;
+}
+.group_10 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+  height: 20px;
+  min-width: 100%;
+  min-height: 20px;
+  max-width: 100%;
+  max-height: 20px;
+}
+.group_11 {
+  background-color: var(--ig-gray-300);
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  position: relative;
+  width: 60%;
+  height: 20px;
+  min-width: 60%;
+  min-height: 20px;
+  max-width: 60%;
+  max-height: 20px;
+  flex-shrink: 0;
+}
+.group_12 {
+  background-color: var(--ig-gray-300);
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  gap: 3px;
+  position: relative;
+  width: 40%;
+  height: 20px;
+  min-width: 40%;
+  min-height: 20px;
+  max-width: 40%;
+  max-height: 20px;
+  flex-shrink: 0;
+}
+.group_13 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 60%;
+  min-width: 60%;
+  max-width: 60%;
+}
+.group_14 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 40%;
+  min-width: 40%;
+  max-width: 40%;
+}
+.group_15 {
+  background-color: var(--ig-gray-300);
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.group_16 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  min-width: 100%;
+  min-height: 200px;
+  max-width: 100%;
+  max-height: 200px;
+}
+.group_17 {
+  background-color: var(--ig-primary-300);
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  position: relative;
+  width: 60px;
+  height: 100%;
+  min-width: 60px;
+  min-height: 100%;
+  max-width: 60px;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.group_18 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 10px;
+  position: relative;
+  margin: 10px 0;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+.group_19 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 30%;
+  min-width: 30%;
+  max-width: 30%;
+}
+.group_20 {
+  background-color: var(--ig-primary-300);
+  border-color: var(--ig-gray-300);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  position: relative;
+  padding: 6px;
+  width: 50%;
+  height: 30px;
+  min-width: 50%;
+  min-height: 30px;
+  max-width: 50%;
+  max-height: 30px;
+  flex-shrink: 0;
+}
+.group_21 {
+  background-color: var(--ig-surface-500);
+  border-color: var(--ig-gray-200);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+  position: relative;
+  padding: 6px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_22 {
+  background-color: var(--ig-surface-500);
+  border-color: var(--ig-gray-200);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+  position: relative;
+  padding: 6px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.group_23 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+  position: relative;
+  width: 70%;
+  min-width: 70%;
+  max-width: 70%;
+}
+.group_24 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 120px;
+  min-width: 120px;
+  max-width: 120px;
+}
+.group_25 {
+  background-color: var(--ig-primary-200);
+  border-color: var(--ig-gray-300);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 4px;
+  width: 100%;
+  height: 20px;
+  min-width: 100%;
+  min-height: 20px;
+  max-width: 100%;
+  max-height: 20px;
+}
+.group_26 {
+  background-color: var(--ig-primary-200);
+  border-color: var(--ig-gray-300);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-start;
+  position: relative;
+  padding: 4px;
+  width: 100%;
+  height: 20px;
+  min-width: 100%;
+  min-height: 20px;
+  max-width: 100%;
+  max-height: 20px;
+}
+.group_27 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+}
+.group_28 {
+  background-color: var(--ig-primary-200);
+  border-color: var(--ig-gray-300);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 4px;
+  width: 100%;
+  height: 20px;
+  min-width: 100%;
+  min-height: 20px;
+  max-width: 100%;
+  max-height: 20px;
+}
+.group_29 {
+  background-color: var(--ig-surface-500);
+  border-color: var(--ig-gray-300);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-start;
+  position: relative;
+  padding: 4px;
+  width: 100%;
+  height: 20px;
+  min-width: 100%;
+  min-height: 20px;
+  max-width: 100%;
+  max-height: 20px;
+}
+.footer_button {
+  background-color: var(--ig-gray-300);
+  z-index: 1;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 3px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  padding: 5px 3px;
+  align-self: stretch;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.text_1 {
+  color: var(--ig-surface-500);
+  height: max-content;
+  min-width: min-content;
+}
+.text_2 {
+  color: var(--ig-gray-900);
+  height: max-content;
+  min-width: min-content;
+}
+.grid {
+  --ig-size: var(--ig-size-medium);
+  min-width: 70%;
+  max-width: 70%;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.button_1 {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.button_2::part(base) {
+  color: var(--ig-gray-900);
+  background-color: var(--ig-surface-500);
+}
+.button_3::part(base) {
+  color: var(--ig-gray-900);
+  background-color: var(--ig-surface-500);
+}
+.button_4::part(base) {
+  color: var(--ig-gray-900);
+  background-color: var(--ig-surface-500);
+}
+.button_5::part(base) {
+  background-color: var(--ig-gray-600);
+}
+.button_6::part(base) {
+  background-color: var(--ig-gray-600);
+}
+.button_7::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_8::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_9::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_10::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_11::part(base) {
+  background-color: var(--ig-gray-200);
+}
+.button_12::part(base) {
+  color: var(--ig-surface-500);
+  background-color: var(--ig-info-500);
+}
+.button_1_1::part(base) {
+  background-color: var(--ig-gray-200);
+}

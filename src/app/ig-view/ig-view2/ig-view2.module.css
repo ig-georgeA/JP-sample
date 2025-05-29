@@ -1,0 +1,47 @@
+.row-layout {
+  display: flex;
+}
+.container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 20px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_1 {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 20px;
+  position: relative;
+}
+.card {
+  width: 35%;
+  height: max-content;
+  min-width: 35%;
+  max-width: 35%;
+  flex-shrink: 0;
+}
+.avatar {
+  --ig-size: var(--ig-size-small);
+}
+.avatar::part(base) {
+  background-color: transparent;
+}
+.avatar_1::part(base) {
+  background-color: transparent;
+}
